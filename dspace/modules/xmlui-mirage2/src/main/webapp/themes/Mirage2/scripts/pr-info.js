@@ -34,9 +34,7 @@ $(function(){
     var id = RegExp('rid[=:]([^&]*)').exec(decodeURIComponent(bookUrl));
 
     if (id && id[1]) {
-      // TODO - remove 'Test' once DOAB pages gone live.
-      // (should look like this: doabBase + '?func=prInfo&rid=' + id + '&sat=1')
-      return doabBase + 'Test' + '?func=prInfo&rid=' + id[1] + '&sat=1';
+      return doabBase + '?func=prInfo&rid=' + id[1] + '&sat=1';
     }
     // use bookUrl as fallback
     return bookUrl;
