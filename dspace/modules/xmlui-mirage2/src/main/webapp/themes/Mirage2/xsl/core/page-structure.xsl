@@ -128,6 +128,30 @@
                     </xsl:choose>
                     <!-- Javascript at the bottom for fast page loading -->
                     <xsl:call-template name="addJavascript"/>
+		    <script src="/static/js/jquery.tagcloud.js" charset="UTF-8" type="text/javascript"> </script>
+		    <script>
+                        $("#tagcloud-person a").tagcloud({
+                        size: {start: 7, end: 14, unit: "px"},
+                        /*color: {start: '#6bafcf', end: '#08338e'}*/
+                        color: {start: '#3498DB', end: '#46CFB0'}
+                        });
+
+                        $("#tagcloud-organisation a").tagcloud({
+                        size: {start: 7, end: 14, unit: "px"},
+                        color: {start: '#3498DB', end: '#46CFB0'}
+                        });
+
+                        $("#tagcloud-location a").tagcloud({
+                        size: {start: 7, end: 14, unit: "px"},
+                        color: {start: '#3498DB', end: '#46CFB0'}
+                        });
+
+                        $(function () {
+                        $('[data-toggle="popover"]').popover()
+                        })
+                    </script>
+
+                    <script src="/static/js/jquery.fancybox.js" charset="UTF-8" type="text/javascript"> </script>
                 </body>
                 <xsl:text disable-output-escaping="yes">&lt;/html&gt;</xsl:text>
 
@@ -199,7 +223,7 @@
             <link rel="stylesheet" href="{concat($theme-path, 'styles/main.css')}"/>
             <link rel="stylesheet" href="{concat($theme-path, 'styles/fontello/css/fontello.css')}"/>
             <link rel="stylesheet" href="{concat($theme-path, 'styles/bootstrap-datetimepicker.css')}"/>
-
+            <link rel="stylesheet" type="text/css" href="/static/css/jquery.fancybox.css"/>
             <!-- Add syndication feeds -->
             <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='feed']">
                 <link rel="alternate" type="application">

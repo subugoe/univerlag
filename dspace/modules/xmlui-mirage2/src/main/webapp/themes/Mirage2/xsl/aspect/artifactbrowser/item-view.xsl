@@ -884,9 +884,9 @@
             </xsl:call-template>
             <i18n:text>xmlui.item.online.version</i18n:text>
             <span class="access">
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="$href"/>
+                <a data-fancybox="" data-type="iframe" href="javascript:;">
+                    <xsl:attribute name="data-src">
+                        <xsl:value-of select="concat('/pdfview/', substring-before(substring-after($href, '3/'), 'isAllow'))"/>
                     </xsl:attribute>
 
 

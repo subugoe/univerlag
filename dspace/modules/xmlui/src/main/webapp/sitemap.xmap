@@ -780,6 +780,10 @@
                 </map:select>
             </map:match>
 
+            <map:match pattern="pdfview/*/*">
+                <map:redirect-to uri="/static/pdf.js-hypothes.is/viewer/web/viewer.html?file=http://134.76.18.16:8084/bitstream/handle/3/{1}/{2}"/>
+	    </map:match>
+
             <!-- HTML Sitemaps and Sitemaps.org Sitemaps for whole repo -->
             <map:match pattern="htmlmap">
                 <map:read type="SitemapReader">
