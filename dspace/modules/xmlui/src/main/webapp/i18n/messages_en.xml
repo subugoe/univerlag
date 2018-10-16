@@ -4299,6 +4299,9 @@
     <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.volume">Volume</message>
     <message key="xmlui.dri2xhtml.METS-1.0.item-copyto-clipboard">Copy link to clipboard</message>
 
+    <message key="xmlui.dri2xhtml.METS-1.0.item-pr-process">Peer Review Process</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-pr-process.icon.title">Certificate and details of the peer review process</message>
+
     <message key="xmlui.static.copyright">&#169; 2017 Göttingen State and University Library</message>
     <!-- search facet values -->
     <message key="de">german</message>

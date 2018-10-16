@@ -4301,6 +4301,9 @@ in einem double-blind Peer-Review-Verfahren. Neben Artikeln werden Rezensionen u
     <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.volume">Band</message>
     <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.volume">nach Band</message>
 
+    <message key="xmlui.dri2xhtml.METS-1.0.item-pr-process">Peer-Review-Verfahren</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-pr-process.icon.title">Zertifikat und Details zum Begutachtungsprozess</message>
+
     <message key="xmlui.static.copyright">&#169; 2017 Niedersächsische Staats- und Universitätsbibliothek Göttingen</message>
     <!-- search facet values -->
     <message key="de">deutsch</message>

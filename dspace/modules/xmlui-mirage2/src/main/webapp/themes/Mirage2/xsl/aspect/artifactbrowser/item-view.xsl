@@ -1569,6 +1569,12 @@
 		    </xsl:choose>
                 </xsl:for-each>
                 <xsl:if test="//dim:field[@qualifier='access'] != 'nodocument'"><i18n:text>xmlui.item.info.document</i18n:text></xsl:if>
+
+                <!-- preparation for peer review certificate -->
+                <div id="pr-details-texts" style="display: none;" aria-hidden="true">
+                    <span id="pr-details-text" style="display: none;" aria-hidden="true"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-pr-process</i18n:text></span>
+                    <span id="pr-link-title" style="display: none;" aria-hidden="true"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-pr-process.icon.title</i18n:text></span>
+                </div>
             </div>
             <!-- <div id="cite">
 
