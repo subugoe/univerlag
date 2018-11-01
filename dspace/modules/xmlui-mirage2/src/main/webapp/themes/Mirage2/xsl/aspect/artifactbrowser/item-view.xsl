@@ -51,6 +51,10 @@
         </xsl:for-each>
     </xsl:variable>
 
+    <xsl:variable name="baseURL">
+        <xsl:value-of select="concat('http://', //dri:metadata[@qualifier='serverName'], ':',//dri:metadata[@qualifier='serverPort'])" />
+    </xsl:variable>
+
     <xsl:template name="itemSummaryView-DIM">
         <!-- Generate the info about the item from the metadata section -->
         <xsl:apply-templates select="./mets:dmdSec/mets:mdWrap[@OTHERMDTYPE='DIM']/mets:xmlData/dim:dim"
@@ -884,12 +888,10 @@
             </xsl:call-template>
             <i18n:text>xmlui.item.online.version</i18n:text>
             <span class="access">
-                <a data-fancybox="" data-type="iframe" href="javascript:;" i18n:attr="title" title="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen.title">
-                    <xsl:attribute name="data-src">
-                        <xsl:value-of select="concat('/pdfview/', substring-before(substring-after($href, '3/'), 'isAllow'))"/>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="$href"/>
                     </xsl:attribute>
-
-
 
                     <i class="icon-download-5"></i><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-viewOpen</i18n:text>
 
@@ -1569,6 +1571,21 @@
 		    </xsl:choose>
                 </xsl:for-each>
                 <xsl:if test="//dim:field[@qualifier='access'] != 'nodocument'"><i18n:text>xmlui.item.info.document</i18n:text></xsl:if>
+
+                <p><strong><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-annotate.heading</i18n:text></strong><xsl:text>: </xsl:text>
+                    <a data-fancybox="" data-type="iframe" >
+                        <xsl:attribute name="data-src">
+                            <xsl:value-of select="concat('/pdfview/', substring-before(substring-after(//mets:fileSec/mets:fileGrp[@USE='CONTENT' or @USE='ORIGINAL']/mets:file[1]/mets:FLocat/@xlink:href, '3/'), 'isAllow'))"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('/pdfview/', substring-before(substring-after(//mets:fileSec/mets:fileGrp[@USE='CONTENT' or @USE='ORIGINAL']/mets:file[1]/mets:FLocat/@xlink:href, '3/'), 'isAllow'))"/>
+                        </xsl:attribute>
+                        <i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-annotate</i18n:text>
+                    </a>
+                    <span id="pdfurl" style="display: none;" aria-hidden="true"><xsl:value-of select="concat($baseURL, '/pdfview/', substring-before(substring-after(//mets:fileSec/mets:fileGrp[@USE='CONTENT' or @USE='ORIGINAL']/mets:file[1]/mets:FLocat/@xlink:href, '3/'), 'isAllow'))"/></span>
+                    <a href="#" onclick="copyToClipboard('#pdfurl')" i18n:attr="title" title="xmlui.dri2xhtml.METS-1.0.item-copyto-clipboard"><i class="icon-export"></i></a>
+                    <br /><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-annotate.description</i18n:text>
+                </p>
 
                 <!-- preparation for peer review certificate -->
                 <div id="pr-details-texts" style="display: none;" aria-hidden="true">

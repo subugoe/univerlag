@@ -2107,9 +2107,11 @@
     <message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Format</message>
     <message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Anzeige</message>
     <message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Beschreibung</message>
-    <message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Ansehen und Annotieren</message>
-    <message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen.title">Dokument mit dem Hypothesis Tool annotieren</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Öffnen</message>
     <message key="xmlui.dri2xhtml.METS-1.0.item-no-files">Zu diesem Dokument gibt es keine Dateien.</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-annotate.heading">Annotationsservice</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-annotate">Ansehen und Annotieren</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-annotate.description"><a href="https://web.hypothes.is/" >Hypothes.is</a> ist ein kostenloser Dienst, der es den Benutzern ermöglicht, Markierungen, Anmerkungen und Kommentare zu erstellen, sowohl öffentlich als auch privat, für sich selbst oder für eine bestimmte Gruppe.</message>
 
     <message key="xmlui.dri2xhtml.METS-1.0.size-bytes">Bytes</message>
     <message key="xmlui.dri2xhtml.METS-1.0.size-kilobytes"> KB</message>
