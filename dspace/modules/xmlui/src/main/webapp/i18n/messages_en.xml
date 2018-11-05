@@ -3318,6 +3318,25 @@
         </div>
     </message>
 
+    <message key="xmlui.static.annotations.head">Annotation Service</message>
+
+    <message key="xmlui.static.annotations">
+
+        <div>
+
+            <p>As part of the EU <a href="http://www.hirmeos.eu/">HIRMEOS</a> project, Göttingen University Press has set itself the goal of integrating new services on its platform. The aim is to enable a more intensive examination of the contents and a better identification of the authors and our respective review procedures. From now on you can use the annotation tool of <a href="https://web.hypothes.is/">Hypothes.is</a> for all our publications by annotating our digital monographs in your own browser and saving the annotations for yourself or for the public.</p>
+            <p>Hypothes.is is a widely used annotation system used by several scientific publishers: Johns Hopkins University Press, University of Michigan Publishing, University of California Press and Ubiquity Press have already integrated the Hypothes.is tool into their platforms.</p>
+            <h4>How to use the Hypothes.is tool</h4>
+            <p>To annotate a publication of Göttingen University Press, you will find the link <em>View and Annotate</em> on the website of each publication, under <em>Details</em>. By clicking you will be redirected to a PDF viewer where the Hypothes.is tool is integrated.</p>
+            <p>To post a comment, click the right arrow button and sign in with your existing Hypothes.is account or create an account. To create an account, you must enter an account name and a valid email address. Use of the service is free of charge. Once logged in, you can annotate, highlight text passages, reply to existing public annotations, and more. You can either create private notes for yourself or make your comments readable for others.  To start group discussions, you can set up a private group in which you can only exchange comments within that group.</p>
+            <p>An interesting example is the "Call for Annotations" of the <em>Hypothesis Reading Group for James Brown's Ethical Programs: </em><a href="https://web.hypothes.is/blog/call-for-annotations-hypothes-is-reading-group-for-james-browns-ethical-programs/">https://web.hypothes.is/blog/call-for-annotations-hypothes-is-reading-group-for-james-browns-ethical-programs/</a></p>
+            <p>Teachers and learners can also benefit from this technology, for example, it is possible to discuss course materials and other resources in private groups.</p>
+            <p>Note that your public comments should always correspond to the netiquette.</p>
+            <p>All annotations are stored on the Hypothes.is server.</p>
+            <p><img src="/static/icons/annotationservice.png" style="max-width: 100%;"></img></p>
+        </div>
+    </message>
+
     <message key="xmlui.static.policy.head">Publishing Policy</message>
     <message key="xmlui.static.policy.trail">Publishing Policy</message>
     <message key="xmlui.static.policy">
