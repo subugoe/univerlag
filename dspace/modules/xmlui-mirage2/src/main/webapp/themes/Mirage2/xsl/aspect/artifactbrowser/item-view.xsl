@@ -1586,6 +1586,12 @@
                     <a href="#" onclick="copyToClipboard('#pdfurl')" i18n:attr="title" title="xmlui.dri2xhtml.METS-1.0.item-copyto-clipboard"><i class="icon-export"></i></a>
                     <br /><i18n:text>xmlui.dri2xhtml.METS-1.0.item-files-annotate.description</i18n:text>
                 </p>
+		<!-- preparation for annotation export -->
+                <div style="display: none;" aria-hidden="true">
+                    <span aria-hidden="true" style="display: none;" id="annotation-details-text">Annotationen zum Text</span>
+                    <span aria-hidden="true" style="display: none;" id="annotation-details-link">Öffnen</span>
+                    <span aria-hidden="true" style="display: none;" id="annotation-details-none">Keine Annotationen gefunden</span>
+                </div>
 
                 <!-- preparation for peer review certificate -->
                 <div id="pr-details-texts" style="display: none;" aria-hidden="true">
