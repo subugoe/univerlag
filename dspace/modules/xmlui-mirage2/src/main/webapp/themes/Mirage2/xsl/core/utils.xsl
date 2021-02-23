@@ -97,7 +97,7 @@
             <xsl:text>cocoon:/</xsl:text>
             <xsl:value-of select="@url"/>
             <!-- Since this is a summary only grab the descriptive metadata, and the thumbnails -->
-            <xsl:text>?sections=dmdSec,fileSec&amp;fileGrpTypes=THUMBNAIL</xsl:text>
+            <!-- <xsl:text>?sections=dmdSec,fileSec&amp;fileGrpTypes=THUMBNAIL</xsl:text> -->
             <!-- An example of requesting a specific metadata standard (MODS and QDC crosswalks only work for items)-->
         </xsl:variable>
         <xsl:comment> External Metadata URL: <xsl:value-of select="$externalMetadataURL"/> </xsl:comment>
