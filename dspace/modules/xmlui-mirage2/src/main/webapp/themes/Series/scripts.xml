@@ -46,7 +46,7 @@
     <!-- authorLookup and its dependencies -->
     <script src="vendor/datatables/media/js/jquery.dataTables.js">&#160;</script>
     <script src="scripts/person-lookup.js">&#160;</script>
-
+    <script src="scripts/order.js">&#160;</script>
     <script src="scripts/addons.js">&#160;</script>
     <script src="scripts/utils.js">&#160;</script>
 
