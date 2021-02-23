@@ -590,7 +590,7 @@ public class OrderAction extends AbstractAction
         protected int shippingCosts;
 
 	protected ArrayList<String> lowcost = new ArrayList<String>( 
-            Arrays.asList("DE", "AT", "LU", "LI")); 
+            Arrays.asList("AT", "LU", "LI")); 
 	protected ArrayList<String> eu = new ArrayList<String>(
             Arrays.asList("BE", "BG", "DK", "EE", "FI", "FR", "GR", "IE", 
 		"IT", "HR", "LV", "LT", "MT", "NL", "PL", "PT", "RO", 
@@ -672,9 +672,12 @@ public class OrderAction extends AbstractAction
                 8.00 EUR bei Lieferung in alle weiteren EU-Länder und
                 15.00 EUR in europäische Länder (Nicht-EU) und in nicht-europäische Länder (Welt).
             */
-	
-	    if (!lowcost.contains(Countrycode)) {
-		if (eu.contains(Countrycode)) {
+	    if (!(Countrycode.equals("DE")) {
+	   	
+	   	 if (lowcost.contains(Countrycode)) {
+			shippingCosts = 350;
+		 }
+		 else if (eu.contains(Countrycode)) {
 			shippingCosts = 800;
 		}
 		else if (Countrycode.equals("CH")) {
