@@ -327,6 +327,21 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </span>
+			<xsl:if test="not(//dim:field[@element='notes' and @qualifier='printaccess'])">
+                <xsl:choose>
+                <xsl:when test="//dim:field[@element='identifier' and @qualifier='asin']">
+                <a class="asin">
+                     <xsl:attribute name="href">
+                            <xsl:value-of select="concat($amazon, //dim:field[@element='identifier' and @qualifier='asin'])" />
+                     </xsl:attribute>
+                      <i class="icon-amazon-1">amazon order</i>
+                 </a>
+                 </xsl:when>
+                 <xsl:otherwise>
+                        <span class="asin">xmlui.available.soon</span>
+                 </xsl:otherwise>
+                 </xsl:choose>
+                 </xsl:if>
                     </div>
                     <!-- <div class="details">
                         <small><xsl:value-of select="concat($descr, ', ', $extent, ' ')" /><i18n:text>xmlui.item.info.pages</i18n:text></small>
