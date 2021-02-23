@@ -672,7 +672,7 @@ public class OrderAction extends AbstractAction
                 8.00 EUR bei Lieferung in alle weiteren EU-Länder und
                 15.00 EUR in europäische Länder (Nicht-EU) und in nicht-europäische Länder (Welt).
             */
-	    if (!(Countrycode.equals("DE")) {
+	    if (!(Countrycode.equals("DE"))) {
 	   	
 	   	 if (lowcost.contains(Countrycode)) {
 			shippingCosts = 350;

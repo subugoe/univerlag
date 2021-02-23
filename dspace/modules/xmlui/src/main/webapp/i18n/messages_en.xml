@@ -4286,9 +4286,9 @@ This series includes texts, lectures and speeches, which have been organized in 
     <message key="xmlui.static.shipping.costs.head">Ordering: Shipping costs</message>
     <message key="xmlui.static.shipping.costs"><div>In addition to the individual prices of the goods, we charge a flat shipping fee of € 2.50 for a delivery within Germany.</div>
 <h3>From 22 February 2021 the following prices apply</h3>
-<table class="table table-striped shipping"><tbody><tr><td>Austria, Luxembourg, Liechtenstein</td><td class="numeric">3.50 €</td></tr>
-                        <tr><td>Switzerland</td><td class="numeric">6.00 €</td></tr>
-                        <tr><td>all other EU-Countries</td><td class="numeric">8.00 €</td></tr>
+<table class="table table-striped shipping"><tbody><tr><td>Austria, Luxembourg, Liechtenstein</td><td class="numeric">&#160;3.50 €</td></tr>
+                        <tr><td>Switzerland</td><td class="numeric">&#160;6.00 €</td></tr>
+                        <tr><td>all other EU-Countries</td><td class="numeric">&#160;8.00 €</td></tr>
                         <tr><td>European countries (non-EU) and to non-European countries (world)</td><td class="numeric">15.00 €</td></tr></tbody></table>
 <div>International shipping is done with tracking.</div></message>
 

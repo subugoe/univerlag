@@ -4407,9 +4407,10 @@ Die vorliegende Schriftenreihe vereint Texte, Vorträge und Reden, die seit 2014
     <message key="xmlui.static.shipping.costs.head">Versandkosten</message>
     <message key="xmlui.static.shipping.costs"><div>Zu den Einzelpreisen der Waren berechnen wir für eine Lieferung innerhalb Deutschlands eine Versandkostenpauschale von 2,50 €.</div>
 <h3>Ab 22.02.2021 gelten folgende Versandkostenpauschalen ins Ausland</h3>
-<table class="table table-striped shipping"><tbody><tr><td>Österreich, Luxemburg, Liechtenstein</td><td class="numeric">3,50 €</td></tr>
-                        <tr><td>Schweiz</td><td class="numeric">6,00 €</td></tr>
-                        <tr><td>alle weiteren EU-Länder</td><td class="numeric">8,00 €</td></tr>
+<table class="table table-striped shipping"><tbody><tr><td>Österreich, Luxemburg, Liechtenstein</td><td class="numeric">&#160;3,50 €</td></tr>
+
+                        <tr><td>Schweiz</td><td class="numeric">&#160;6,00 €</td></tr>
+                        <tr><td>alle weiteren EU-Länder</td><td class="numeric">&#160;8,00 €</td></tr>
                         <tr><td>nicht EU-Länder Europa,  außerhalb Europa</td><td class="numeric">15,00 €</td></tr></tbody></table>
 <div>Der Auslandsversand erfolgt mit Sendungsverfolgung.</div></message>
 
