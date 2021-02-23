@@ -780,6 +780,20 @@ a.tooltip {
 
 #aspect_discovery_SiteRecentSubmissions_div_site-recent-submission > div > div > a > div.thumbnail.artifact-preview {
   min-height: 300px;
+  margin-bottom: 10px;
+}
+
+.thumbnail.artifact-preview > .caption > .artifact-title {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 #coverlicense {
@@ -1062,4 +1076,14 @@ footer {
 	float: left;
         font-size: 5em;
         padding-right: 30px;
+}
+
+.asin {
+	float: right;
+	display: none;
+	text-decoration: none;
+}
+
+.asin > .icon-amazon-1 {
+	color: #2d487b;
 }

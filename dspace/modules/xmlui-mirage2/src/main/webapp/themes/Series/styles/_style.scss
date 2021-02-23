@@ -943,3 +943,13 @@ a.tooltip {
 .cover-preview {
     overflow: hidden;
 }
+
+.asin {
+        float: right;
+        display: none;
+        text-decoration: none;
+}
+
+.asin > .icon-amazon-1 {
+        color: #2d487b;
+}
