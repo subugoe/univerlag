@@ -2941,7 +2941,7 @@ Your team at the Universitätsverlag Göttingen</p>
             <div class="col-sm-6">
                 <h4 class="list-item-header">Faculty of Theology</h4>
                 <p>Prof. Dr. Reinhard Müller<a title="Homepage" target="_blank" href="//www.uni-goettingen.de/de/56732.html"> <span class="glyphicon glyphicon-home" /></a> 
-                <a title="Wikipedia" target="_blank" href="//de.wikipedia.org/wiki/Reinhard_M%C3%BCller_(Theologe)"><i class="icon-wikipedia"></i></a>
+                <a title="Wikipedia" target="_blank" href="//de.wikipedia.org/wiki/Reinhard_M%C3%BCller_(Theologe)"><i class="icon-wikipedia" /></a>
 		</p>
 
             </div>
@@ -3094,50 +3094,25 @@ Your team at the Universitätsverlag Göttingen</p>
 
     <message key="xmlui.static.publishing.head">Publishing at Göttingen University Press</message>
     <message key="xmlui.static.publishing.trail">Publishing</message>
-    <message key="xmlui.static.publishing">
-        <div>
-            <p>
-
-                <strong>As an associate of University of Göttingen</strong> you can publish your scholarly work with Göttingen University Press.</p>
-            <p>
-                To get an estimate of <strong>the publication costs</strong> please make use of our form <a href="/costrequest">Query of costs</a>.
+    <message key="xmlui.static.publishing"><div><p><strong>As an associate of University of Göttingen</strong> you can publish your scholarly work with Göttingen University Press.</p>
+            <p>To get an estimate of <strong>the publication costs</strong> please make use of our form <a href="/costrequest">Query of costs</a>.
                 Please note that the author has to pay her or his share of the production costs.</p>
 
-            <p>
-                Please feel free to <a href="/info/contact">send us your questions</a> concerning the publication process at Göttingen University Press.
-            </p>
+            <p>Please feel free to <a href="/info/contact">send us your questions</a> concerning the publication process at Göttingen University Press.</p>
 
-            <p>
-                In order to produce the print and the online versions of your work we need production-ready files in PDF format.
-                For further information please make use of our <a href="/info/publishing-utils">"author´s tools"</a> where you will also find templates for different style sheets, etc.
-            </p>
-            <p>
-                Göttingen University Press publications fall into one of our two <a href="/info/divisions">categories</a>, the category "University Prints" ("Universitätsdrucke") for scholarly work of decent quality and the reviewed category "University Press" ("Universitätsverlag") for premium scholarly work.
-                The quality level of your work determines which publication category your work will be assigned to. If the quality level allows for the category "University Press" and author and publisher agree to do so, your manuscript will receive a peer review by our editorial board or external reviewers. Manuscripts for books to be published in the category "University Prints" undergo a formal review.
-            </p>
+            <p>In order to produce the print and the online versions of your work we need production-ready files in PDF format.
+                For further information please make use of our <a href="/info/publishing-utils">"author´s tools"</a> where you will also find templates for different style sheets, etc.</p>
+            <p>Göttingen University Press publications fall into one of our two <a href="/info/divisions">categories</a>, the category "University Prints" ("Universitätsdrucke") for scholarly work of decent quality and the reviewed category "University Press" ("Universitätsverlag") for premium scholarly work.
+                The quality level of your work determines which publication category your work will be assigned to. If the quality level allows for the category "University Press" and author and publisher agree to do so, your manuscript will receive a peer review by our editorial board or external reviewers. Manuscripts for books to be published in the category "University Prints" undergo a formal review.</p>
 
-            <p>
-                In a collaborative process you (the author) and we (the publisher) decide on the design of the book, e.g. cover and layout (according to the corporate design of the university).
-                We also perform a formal check of your file.
+            <p>In a collaborative process you (the author) and we (the publisher) decide on the design of the book, e.g. cover and layout (according to the corporate design of the university).
+                We also perform a formal check of your file.</p>
+            <p>With all those preliminaries completed you will receive a proof copy. If both parties are satisfied with this proof, the book will be cleared for release.</p>
 
-            </p>
-            <p>
-                With all those preliminaries completed you will receive a proof copy. If both parties are satisfied with this proof, the book will be cleared for release.
-            </p>
+            <p>After publication your book will be available online <a href="/info/openaccess">open access</a> on our website, endowed with a <a href="//creativecommons.org/licenses/by-sa/4.0/deed.en" class="extern-link" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0) </a>.
+                We also report your work to important databases and catalogues (e. g. GVK, DNB). The printed version will be listed in the "German Books in Print" ("Verzeichnis lieferbarer Bücher (VLB)") and with Amazon.</p>
 
-            <p>
-                After publication your book will be available online <a href="/info/openaccess">open access</a> on our website, endowed with a <a href="//creativecommons.org/licenses/by/4.0/deed.de" class="extern-link" target="_blank">Creative Commons Licence 4.0</a>.
-                We also report your work to important databases and catalogues (e. g. GVK, DNB). The printed version will be listed in the "German Books in Print" ("Verzeichnis lieferbarer Bücher (VLB)") and with Amazon.
-	</p>
-
-	<p>
-		The long-term archiving of the full text version is carried out by reporting the files to the German National Library.
-	</p>
-		
-		
-
-        </div>
-    </message>
+	<p>The long-term archiving of the full text version is carried out by reporting the files to the German National Library.</p></div></message>
     <message key="xmlui.static.publisher-catalog.link">Publishing Catalog</message>
     <message key="xmlui.static.reviewer.head">Publishing: Reviewers' Toolset</message>
     <message key="xmlui.static.reviewer.navigation">Reviewers' Toolset</message>
@@ -3335,96 +3310,51 @@ Editorial board and staff members of the press are aware of their responsibility
 
     <message key="xmlui.static.divisions.head">Publication Categories</message>
 
-    <message key="xmlui.static.divisions">
-
-        <div>
-
-            <p>The publications are separated into two classes of publications which differ in terms of service and quality assurance: University Press and University Prints.</p>
-            <table class="table table-striped">
-
-                <thead>
-                    <tr>
-
-                        <th> </th>
+    <message key="xmlui.static.divisions"><div><p>The publications are separated into two classes of publications which differ in terms of service and quality assurance: University Press and University Prints.<br />
+		We run a third category "Varia" for works in the responsibility of the University as an entity.</p>
+            <table class="table table-striped"><thead><tr><th />
                         <th>University Press</th>
                         <th>University Prints</th>
-
-                    </tr>
-
-                </thead>
-                <tbody>
-
-                    <tr>
-
-                        <th>reviewing</th>
+						<th>Varia</th></tr></thead>
+						
+                <tbody><tr><th>reviewing</th>
                         <td>assessment through editorial board and peer review</td>
                         <td>assessment through publisher, consultation of editorial board if neccessary</td>
+						<td>without assessment, consultation of editorial board if neccessary</td></tr>
 
-                    </tr>
-
-                    <tr>
-
-                        <th>publishing services</th>
+                    <tr><th>publishing services</th>
                         <td>full publishing services <br />
-                            (editing, proof reading as well as production support, publishing, sales)
-                        </td>
+                            (editing, proof reading as well as production support, publishing, sales)</td>
                         <td>publishing services <br />
-                            (production support, publishing, sales)
-                        </td>
+                            (production support, publishing, sales)</td>
+						<td>limited publishing services <br />
+                            (publishing, sales)</td></tr>
 
-                    </tr>
-
-                    <tr>
-
-                        <th>submittal</th>
+                    <tr><th>submittal</th>
                         <td>convertible manuscripts and edited formats (PS, PDF, TEX etc.)</td>
                         <td>convertible manuscripts and edited formats (PS, PDF, TEX etc.)</td>
+						<td>convertible manuscripts and edited formats (PS, PDF, TEX etc.)</td></tr>
 
-                    </tr>
+                    <tr><th>types of media</th>
+                        <td>books, series, journals</td>
+                        <td>books, series, journals</td>
+						<td>books, series</td></tr>
 
-                    <tr>
-
-                        <th>types of media</th>
-                        <td>books, journals, multimedia products</td>
-                        <td>books, journals</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th>features of the print products</th>
+                    <tr><th>features of the print products</th>
                         <td>high quality media products (hardcover and softcover)</td>
-                        <td>hochwertige bis preisgünstige Medienprodukte</td>
+                        <td>high quality to low quality media products</td>
+						<td>high quality to low quality media products</td></tr>
 
-                    </tr>
+                    <tr><th>edition</th>
+                        <td>offset- and digital print as well as electronic formats</td>
+                        <td>offset- and digital print as well as electronic formats</td>
+						<td>offset- and digital print as well as electronic formats</td></tr>
 
-                    <tr>
-
-                        <th>edition</th>
-                        <td>offset- and digital print as well as electronic formats <br />
-                            print-on-demand-option
-                        </td>
-                        <td>offset- and digital print as well as electronic formats <br />
-                            print-on-demand-option</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th>archiving</th>
+                    <tr><th>archiving</th>
                         <td>long-term archiving</td>
                         <td>long-term archiving</td>
-
-                    </tr>
-
-                </tbody>
-
-            </table>
-            <p>
-                We run a third category "Varia" for works in the responsibility of the University as an entity.
-            </p>
-        </div>
-    </message>
+						<td>long-term archiving</td></tr></tbody></table>
+            </div></message>
     <message key="xmlui.static.annotations.link">Annotation Service <img title="hypothes.is" src="/dokumente/images/hypthesis_Symbol_bl.jpg" /></message>
     <message key="xmlui.item.annotation.download">Annotations: </message>
     <message key="xmlui.static.annotations.head">Annotation Service</message>
@@ -4284,101 +4214,67 @@ This series includes texts, lectures and speeches, which have been organized in 
     <message key="xmlui.static.shipping.costs.title">Ordering: Shipping costs</message>
     <message key="xmlui.static.shipping.costs.trail">Shipping costs</message>
     <message key="xmlui.static.shipping.costs.head">Ordering: Shipping costs</message>
-    <message key="xmlui.static.shipping.costs"><div>In addition to the individual prices of the goods, we charge a flat shipping fee of € 2.50 for a delivery within Germany.</div>
-<h3>From 22 February 2021 the following prices apply</h3>
-<table class="table table-striped shipping"><tbody><tr><td>Austria, Luxembourg, Liechtenstein</td><td class="numeric">&#160;3.50 €</td></tr>
-                        <tr><td>Switzerland</td><td class="numeric">&#160;6.00 €</td></tr>
-                        <tr><td>all other EU-Countries</td><td class="numeric">&#160;8.00 €</td></tr>
+    <message key="xmlui.static.shipping.costs"><div>In addition to the individual prices of the goods, we charge the following flat rate shipping costs for each delivery:</div>
+
+<table class="table table-striped shipping"><tbody>
+<tr><td>Germany</td><td class="numeric">2.50 €</td></tr>
+<tr><td>Austria, Luxembourg, Liechtenstein</td><td class="numeric"> 3.50 €</td></tr>
+                        <tr><td>Switzerland</td><td class="numeric"> 6.00 €</td></tr>
+                        <tr><td>all other EU-Countries</td><td class="numeric"> 8.00 €</td></tr>
                         <tr><td>European countries (non-EU) and to non-European countries (world)</td><td class="numeric">15.00 €</td></tr></tbody></table>
-<div>International shipping is done with tracking.</div></message>
+International shipping is done with tracking.</message>
 
     <message key="xmlui.static.review.form">Review Form</message>
 
     <message key="xmlui.static.order-conditions.title">Ordering: Terms and Conditions</message>
     <message key="xmlui.static.order-conditions.trail">Terms and Conditions</message>
     <message key="xmlui.static.order-conditions.head">Ordering: Terms and Conditions</message>
-    <message key="xmlui.static.order-conditions">
-        <p>
-            Please note that we have not yet been able to translate the terms and conditions into the English language.
+    <message key="xmlui.static.order-conditions"><p>Please note that we have not yet been able to translate the terms and conditions into the English language.
             For that reason, we provide the terms and conditions in German and a short summary in English.
             If you have any questions, please feel free to contact us.
             Please note that the second section of our terms and conditions, which deals with the cancellation of orders, only applies to customers living in
-            the European Union.
-        </p>
-        <p>
-            Short summary:
-        </p>
-        <p>
-            When transmitting the final step of your order via our website, you are effectively making us an offer. We accept your offer by sending you the ordered products.
+            the European Union.</p>
+        <p>Short summary:</p>
+        <p>When transmitting the final step of your order via our website, you are effectively making us an offer. We accept your offer by sending you the ordered products.
             Please note that we add shipping and handling costs to the displayed cost of the items.
             Shipping and handling costs for Germany and countries of the Eruopean Union appear on your order once you have put items into the shopping cart.
             Please use the contact form in order to find out about the exact costs for shipping outside the European Union or in case that you have special needs,
-            e.g. delivery by air mail. We don't archive or share your personal data except for the purpose of billing and delivery.
-        </p>
+            e.g. delivery by air mail. We don't archive or share your personal data except for the purpose of billing and delivery.</p>
 
-        <p>Terms and Conditions (German, see above) </p>
+        <p>Terms and Conditions (German, see above)</p>
 
-        <ol>
-            <li>
-
-                <p>
-                    Sämtliche Lieferungen und Leistungen des Universitätsverlags Göttingen erfolgen ausschließlich auf Grundlage dieser allgemeinen Geschäftsbedingungen. Abweichende Bedingungen des Vertragspartners werden nur dann anerkannt, wenn dem ausdrücklich in Schriftform zugestimmt worden ist.
-                </p>
+        <ol><li><p>Sämtliche Lieferungen und Leistungen des Universitätsverlags Göttingen erfolgen ausschließlich auf Grundlage dieser allgemeinen Geschäftsbedingungen. Abweichende Bedingungen des Vertragspartners werden nur dann anerkannt, wenn dem ausdrücklich in Schriftform zugestimmt worden ist.</p>
 
 
-                <p>
-                    Mit dem Abschluß des Bestellvorgangs auf der Internetseite gibt der Nutzer zunächst ein Angebot zum Kauf ab und erklärt sein Einverständnis mit diesen allgemeinen Geschäftsbedingungen. Die Annahme dieses Angebots erfolgt durch Zusendung der bestellten Ware. Zu den Einzelpreisen der Waren berechnen wir übliche Versandkosten für den Warenversand aus Deutschland. Bis zur vollständigen Zahlung des Kaufpreises verbleibt die gelieferte Ware im Eigentum des Universitätsverlags Göttingen.
-                </p>
+                <p>Mit dem Abschluß des Bestellvorgangs auf der Internetseite gibt der Nutzer zunächst ein Angebot zum Kauf ab und erklärt sein Einverständnis mit diesen allgemeinen Geschäftsbedingungen. Die Annahme dieses Angebots erfolgt durch Zusendung der bestellten Ware.</p>
+<p>Zu den Einzelpreisen der Waren berechnen wir für eine Lieferung innerhalb Deutschlands eine Versandkostenpauschale von 2,50 €.</p>
+<p>Ins Ausland gelten folgende Versandkostenpauschalen:<br />
+3,50 EUR bei Lieferung nach Österreich, Luxemburg, Liechtenstein<br />
+6,00 EUR bei Lieferung in die Schweiz<br />
+8,00 EUR bei Lieferung in alle weiteren EU-Länder und<br />
+15,00 EUR bei Lieferung in europäische Länder (Nicht-EU) und in außer-europäische Länder (Welt).<br />
+Der Auslandsversand erfolgt mit Sendungsverfolgung.<br />
+ Bis zur vollständigen Zahlung des Kaufpreises verbleibt die gelieferte Ware im Eigentum des Universitätsverlags Göttingen.</p></li>
+            <li><p>Ist der Vertragspartner ein Verbraucher (§13 BGB, Geschäftszweck weder gewerblicher noch selbständig beruflichen Tätigkeit zugeordnet) und beruht der Vertragsschluss auf einem Fernabsatzvertrag (§312b BGB, z.B. Bestellung über das Internet) gilt für die Bestellung von Waren folgende Widerrufsbestimmungen, über die der Vertragspartner hiermit wie gesetzlich vorgeschrieben belehrt wird:</p>
 
+                <div class="box"><h3>Widerrufsbelehrung</h3>
 
-            </li>
-            <li>
-                <p>
-
-                    Ist der Vertragspartner ein Verbraucher (§13 BGB, Geschäftszweck weder gewerblicher noch selbständig beruflichen Tätigkeit zugeordnet) und beruht der Vertragsschluss auf einem Fernabsatzvertrag (§312b BGB, z.B. Bestellung über das Internet) gilt für die Bestellung von Waren folgende Widerrufsbestimmungen, über die der Vertragspartner hiermit wie gesetzlich vorgeschrieben belehrt wird:
-                </p>
-
-                <div class="box">
-                    <h3>Widerrufsbelehrung</h3>
-
-                    <p>
-
-                        Widerrufsrecht:
-                    </p>
-                    <p>
-
-                        Sie können Ihre Vertragserklärung innerhalb von zwei Wochen ohne Angabe von Gründen in Textform (z.B. Brief, Fax, E-Mail) oder durch Rücksendung der Sache widerrufen. Die Frist beginnt frühestens mit Erhalt dieser Belehrung. Zur Wahrung der Widerrufsfrist genügt die rechtzeitige Absendung des Widerrufs oder der Sache.
-                    </p>
-                    <p>Der Widerruf ist zu richten an: </p>
+                    <p>Widerrufsrecht:</p>
+                    <p>Sie können Ihre Vertragserklärung innerhalb von zwei Wochen ohne Angabe von Gründen in Textform (z.B. Brief, Fax, E-Mail) oder durch Rücksendung der Sache widerrufen. Die Frist beginnt frühestens mit Erhalt dieser Belehrung. Zur Wahrung der Widerrufsfrist genügt die rechtzeitige Absendung des Widerrufs oder der Sache.</p>
+                    <p>Der Widerruf ist zu richten an:</p>
                     <p class="address">Georg-August-Universität Göttingen</p>
 		    <p class="address">Niedersächsische Staats- und Universitätsbibliothek Göttingen</p>
 		    <p class="address">Universitätsverlag Göttingen</p>
                     <p class="address">Platz der Göttinger Sieben 1</p>
                     <p class="address">37073 Göttingen</p>
 		    <p />
-                    <p>
-                        Widerrufsfolgen:
-                    </p>
-                    <p>
-                        Im Falle eines Widerrufs sind die beiderseits empfangenen Leistungen zurückzugewähren. Können Sie uns die empfangene Leistung ganz oder teilweise nicht oder nur in verschlechtertem Zustand zurückgewähren, müssen Sie uns insoweit ggf. Wertersatz leisten. Bei der Überlassung von Sachen gilt dies nicht, wenn die Verschlechterung der Sache ausschließlich auf deren Prüfung -- wie sie Ihnen etwa in einem Ladengeschäft möglich gewesen wäre -- zurückzuführen ist. Im Übrigen können Sie die Wertersatzpflicht vermeiden, indem Sie die Sache nicht wie ein Eigentümer in Gebrauch nehmen und alles unterlassen, was deren Wert beeinträchtigt. Paketversandfähige Sachen sind zurückzusenden. Sie haben die Kosten der Rücksendung zu tragen, wenn die gelieferte Ware der bestellten entspricht und wenn der Preis der zurückzusendenden Sache 40,-- Euro nicht übersteigt oder wenn Sie bei einem höheren Preis der Sache zum Zeitpunkt des Widerrufs noch nicht die Gegenleistung oder eine vertraglich ausnahmsweise vereinbarte Teilzahlung erbracht haben. Andernfalls ist die Rücksendung für Sie kostenfrei. Verpflichtungen zur Erstattung von Zahlungen müssen Sie innerhalb von 30 Tagen nach Absendung Ihrer Widerrufserklärung erfüllen.<br />
-                        (Ende der Widerrufsbelehrung)
-                    </p>
-                </div>
-            </li>
-            <li>
-                <p>
-                    Der Vertragspartner erklärt sich einverstanden, dass personenbezogene Daten in dem Umfang gespeichert werden, in dem dies zur Erfüllung des Vertragsverhältnisses erforderlich ist. Eine Speicherung darüber hinaus oder Weitergabe der Daten erfolgt nicht.
-                </p>
+                    <p>Widerrufsfolgen:</p>
+                    <p>Im Falle eines Widerrufs sind die beiderseits empfangenen Leistungen zurückzugewähren. Können Sie uns die empfangene Leistung ganz oder teilweise nicht oder nur in verschlechtertem Zustand zurückgewähren, müssen Sie uns insoweit ggf. Wertersatz leisten. Bei der Überlassung von Sachen gilt dies nicht, wenn die Verschlechterung der Sache ausschließlich auf deren Prüfung -- wie sie Ihnen etwa in einem Ladengeschäft möglich gewesen wäre -- zurückzuführen ist. Im Übrigen können Sie die Wertersatzpflicht vermeiden, indem Sie die Sache nicht wie ein Eigentümer in Gebrauch nehmen und alles unterlassen, was deren Wert beeinträchtigt. Paketversandfähige Sachen sind zurückzusenden. Sie haben die Kosten der Rücksendung zu tragen, wenn die gelieferte Ware der bestellten entspricht und wenn der Preis der zurückzusendenden Sache 40,-- Euro nicht übersteigt oder wenn Sie bei einem höheren Preis der Sache zum Zeitpunkt des Widerrufs noch nicht die Gegenleistung oder eine vertraglich ausnahmsweise vereinbarte Teilzahlung erbracht haben. Andernfalls ist die Rücksendung für Sie kostenfrei. Verpflichtungen zur Erstattung von Zahlungen müssen Sie innerhalb von 30 Tagen nach Absendung Ihrer Widerrufserklärung erfüllen.<br />
+                        (Ende der Widerrufsbelehrung)</p></div></li>
+            <li><p>Der Vertragspartner erklärt sich einverstanden, dass personenbezogene Daten in dem Umfang gespeichert werden, in dem dies zur Erfüllung des Vertragsverhältnisses erforderlich ist. Eine Speicherung darüber hinaus oder Weitergabe der Daten erfolgt nicht.</p>
 
-                <p>
-                </p></li>
-            <li>
-                <p>
-                    Sollte eine Bestimmung dieser allgemeinen Geschäftsbedingungen ganz oder teilweise unwirksam sein, bleiben hiervon andere Bedingungen, die von der unwirksamen Bestimmung unterscheidbar sind, unberührt und wirksam. An Stelle der unwirksamen Bedingungen gelten entsprechend die gesetzlichen Bestimmungen. Erfüllungsort und Gerichtsstand ist Göttingen.
-                </p>
-            </li>
-        </ol>
-    </message>
+                <p /></li>
+            <li><p>Sollte eine Bestimmung dieser allgemeinen Geschäftsbedingungen ganz oder teilweise unwirksam sein, bleiben hiervon andere Bedingungen, die von der unwirksamen Bestimmung unterscheidbar sind, unberührt und wirksam. An Stelle der unwirksamen Bedingungen gelten entsprechend die gesetzlichen Bestimmungen. Erfüllungsort und Gerichtsstand ist Göttingen.</p></li></ol></message>
 
 
     <message key="xmlui.static.ring.contact-ss14">
@@ -4557,6 +4453,8 @@ This series includes texts, lectures and speeches, which have been organized in 
     <message key="xmlui.Discovery.AdvancedSearch.type_subjectheading">Subject</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_medium">Medium</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.medium">Medium</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.sponsor">Sponsor</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.sponsor">Sponsor</message>
 
     <!-- Cost request form -->
 

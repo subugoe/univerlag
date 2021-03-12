@@ -6,9 +6,9 @@
 
 # Specify DSpace installation directory and DSpace source directory here
 # Path to DSpace installation directory
-DSPACE_DIR="/srv/dspace"
+DSPACE_DIR="/opt/dspace/univerlag/"
 # Path to DSpace source directory
-DSPACE_SRC="/srv/dspace-src"
+DSPACE_SRC="/home/dspace/dspace-5.10-src"
 
 COPY_TO_DIR="$DSPACE_SRC/dspace/modules/xmlui/src/main/webapp/i18n/"
 FILES_TO_COPY="$DSPACE_DIR/webapps/xmlui/i18n/messages*.xml"

@@ -2866,60 +2866,20 @@ Three elements make up the asjournal.org web presence: the American Studies Jour
 
     <!-- home page -->
     <message key="xmlui.static.home.head">Univerlag</message>
-    <message key="xmlui.static.home">
-        <h2 class="first-page-header">Willkommen beim Universitätsverlag Göttingen</h2>
+    <message key="xmlui.static.home"><h2 class="first-page-header">Willkommen beim Universitätsverlag Göttingen</h2>
 
-<!--        <div class="highlight news">
-<h4>Sehr geehrte Damen und Herren,</h4>
-<p><img id="delivery" src="/static/images/Bookdelivery4.png" align="left"/>Seit Montag, 4.Mai 2020 verkauft und versendet der Universitätsverlag Göttingen wieder gedruckte Bücher.</p>
-<p>Die Beratung unserer Autorinnen und Autoren findet weiterhin ausschließlich per E-Mail statt. </p>
-<p>Wir informieren Sie, sobald der Betrieb wieder in gewohnter Weise aufgenommen werden kann.</p>
-<p>Bleiben Sie gesund!<br/>
-Ihr Team vom Universitätsverlag Göttingen </p>
 
-	</div> -->
 
-	<!-- <div class="highlight news">
-        <span id="cm">🎄</span>
-        <div class="right">
-    <h4>Verehrte Kundinnen und Kunden, liebe Autorinnen und Autoren,</h4>
-    der Universitätsverlag macht ab dem 21. Dezember 2020 eine Weihnachtspause. In der Zeit werden keine Bücher versendet und die Autorinnen und Autoren werden in dieser Zeit nicht betreut.<br />
-Ab dem 11. Januar 2021 sind wir wieder für Sie da.
-Wir hoffen auf Ihr Verständnis und wünschen allen eine frohe Weihnachtszeit und einen angenehmen Übergang in ein gesundes Neues Jahr.
-</div> 
-</div> -->
-        <p class="paragraph justify strech-bottom">
-            Der Universitätsverlag ist der Eigenverlag der Georg-August-Universität Göttingen und publiziert wissenschaftliche Werke von Wissenschaftlern, die zur Universität Göttingen gehören.
+	
+        <p class="paragraph justify strech-bottom">Der Universitätsverlag ist der Eigenverlag der Georg-August-Universität Göttingen und publiziert wissenschaftliche Werke von Wissenschaftlern, die zur Universität Göttingen gehören.
             Wir unterstützen unsere Autorinnen und Autoren beim elektronischen und printbasierten Publizieren.
             Der Universitätsverlag Göttingen arbeitet mit der Zielsetzung, wissenschaftliche Publikationen möglichst unbeschränkt der Öffentlichkeit zur Verfügung zu stellen und auch solche qualitätvollen Publikationen zu ermöglichen, die wegen ihrer inhaltlichen Spezialisierung auf dem kommerziellen Verlagsmarkt nur schwer veröffentlicht werden.<br />
-	    Die Beratung unserer Autorinnen und Autoren erfolgt wegen der Corona-Pandemie zwar überwiegend per E-Mail, aber es können auch gerne Termine für eine telefonische Beratung vereinbart werden. Wir freuen uns auf Ihre Anfrage.
-        </p>
-<!--	<div class="alert alert-info">
-	<p>Sehr geehrte Kundinnen und Kunden,</p>
+	    Die Beratung unserer Autorinnen und Autoren erfolgt wegen der Corona-Pandemie zwar überwiegend per E-Mail, aber es können auch gerne Termine für eine telefonische Beratung vereinbart werden. Wir freuen uns auf Ihre Anfrage.</p>
 
-<p>wir haben derzeit keine Möglichkeit, unser Verkäuferkonto bei amazon adäquat zu bedienen. Daher möchten wir Sie bitten, nicht über amazon zu bestellen. Auf dem Wege haben wir im Moment keine Liefermöglichkeit.
-</p>
-<p>
-Bitte entschuldigen Sie die damit entstehenden Unannehmlichkeiten.
-</p>
-</div> -->
 
-        <!-- <div class="btn-toolbar">
-            <div class="wrapper pull-right">
-                <a href="/news" class="btn btn-default btn-xs" role="button">Aktuelles</a>
-                <a target="_blank" href="/info/publishing-catalog" class="btn btn-default btn-xs" role="button">Verlagskatalog</a>
-            </div>
-
-        </div> -->
-        <div class="row">
-            <div class="col-xs-6">
-                <a class="bigger" href="/news"><span class="new">!</span>Aktuelles</a>
-            </div>
-            <div class="col-xs-6">
-                <a class="pull-right bigger" href="/info/publishing-catalog">Verlagskatalog</a>
-            </div>
-        </div>
-    </message>
+        
+        <div class="row"><div class="col-xs-6"><a class="bigger" href="/news"><!-- <span class="new">!</span> -->Aktuelles</a></div>
+            <div class="col-xs-6"><a class="pull-right bigger" href="/info/publishing-catalog">Verlagskatalog</a></div></div></message>
 
 <message key="xmlui.static.aboutus.head">Über uns</message>
     <message key="xmlui.static.aboutus">
@@ -3231,48 +3191,24 @@ Bitte entschuldigen Sie die damit entstehenden Unannehmlichkeiten.
 
     <message key="xmlui.static.publishing.head">Publizieren im Universitätsverlag Göttingen</message>
     <message key="xmlui.static.publishing.trail">Publizieren</message>
-    <message key="xmlui.static.publishing">
-        <div>
-            <p>
+    <message key="xmlui.static.publishing"><div><p><strong>Als Mitglied der Georg-August-Universität Göttingen</strong> können Sie Ihre wissenschaftliche Arbeit über den Universitätsverlag Göttingen weltweit veröffentlichen. Näheres regelt die <a href="/dokumente/texts/Nutzungsordnung-2015-01-09.pdf">Nutzungsordnung</a>, die im Januar 2015 in Kraft getreten ist.</p>
+            <p>Um einen ersten Überblick über die <strong>anfallenden Kosten</strong> für Ihre Publikation zu erhalten (der Autor selbst trägt den Anteil des Produktionskostenzuschusses) nutzen Sie bitte unser <a href="/costrequest">Kostenanfrageformular</a>.</p>
 
-                <strong>Als Mitglied der Georg-August-Universität Göttingen</strong> können Sie Ihre wissenschaftliche Arbeit über den Universitätsverlag Göttingen weltweit veröffentlichen. Näheres regelt die <a href="/dokumente/texts/Nutzungsordnung-2015-01-09.pdf">Nutzungsordnung</a>, die im Januar 2015 in Kraft getreten ist.
-            </p>
-            <p>
-                Um einen ersten Überblick über die <strong>anfallenden Kosten</strong> für Ihre Publikation zu erhalten (der Autor selbst trägt den Anteil des Produktionskostenzuschusses) nutzen Sie bitte unser <a href="/costrequest">Kostenanfrageformular</a>.
-            </p>
+            <p>Wenn Sie sich entschieden haben, Ihre Arbeit in unserem Verlag zu veröffentlichen, <a href="/info/contact">kontaktieren</a>  Sie uns bitte.</p>
 
-            <p>
-                Wenn Sie sich entschieden haben, Ihre Arbeit in unserem Verlag zu veröffentlichen, <a href="/info/contact">kontaktieren</a>  Sie uns bitte.
-            </p>
+            <p>Für das Erstellen der Druck- und Online-Ausgabe Ihres Werkes benötigen wir ein publikationsreifes PDF-Dokument. Dazu stehen Ihnen <a href="/info/publishing-utils"><strong>unsere Formatvorlagen</strong></a> zur Verfügung. Wir möchten Sie bitten, diese entsprechend zu nutzen.</p>
+            
 
-            <p>
-                Für das Erstellen der Druck- und Online-Ausgabe Ihres Werkes benötigen wir ein publikationsreifes PDF-Dokument. Dazu stehen Ihnen <a href="/info/publishing-utils"><strong>unsere Formatvorlagen</strong></a> zur Verfügung. Wir möchten Sie bitten, diese entsprechend zu nutzen.
-            </p>
-            <!-- <p>
+            <p>Im Universitätsverlag Göttingen gibt es zwei <a href="/info/divisions">Sparten</a> für das Publizieren, die „<strong>Universitätsdrucke</strong>“ für wissenschaftliche Werke von solider Qualität sowie die begutachtete Sparte „<strong>Universitätsverlag</strong>“ für Werke gehobener Qualität. <br />
+                Anhand der Qualität des Inhalts wird festgelegt, in welcher Sparte wir Ihr Dokument veröffentlichen. Wenn Sie und wir übereinstimmend Ihr Werk der Sparte „Universitätsverlag“ zuordnen, wird es dem Herausgebergremium vorgelegt, um eine inhaltliche Begutachtung zu erhalten. Bei der Sparte „Universitätsdrucke“ nehmen wir lediglich eine formale Prüfung der Datei vor.</p>
 
-        Um Ihr Dokument zur Veröffentlichung einzureichen, <a href="/register">registrieren Sie sich</a> bitte beim Universitätsverlag, navigieren Sie zum Fachgebiet, in dem Ihre Publikation erscheinen soll und klicken Sie auf  „Hier veröffentlichen“. </p>-->
+            <p>Parallel dazu erarbeiten wir mit Ihnen <strong>die Gestaltung des Buches</strong> (im Corporate Design der Universität) und nehmen eine <strong>formale Prüfung</strong> der Datei vor.</p>
+            <p>Sind alle Kriterien für die Veröffentlichung erfüllt, erhalten Sie einen Probedruck des Buches. Wenn beide Parteien diesen geprüft haben, wird die <strong>endgültige Druckfreigabe</strong> erteilt.</p>
 
-            <p>
-                Im Universitätsverlag Göttingen gibt es zwei <a href="/info/divisions">Sparten</a> für das Publizieren, die „<strong>Universitätsdrucke</strong>“ für wissenschaftliche Werke von solider Qualität sowie die begutachtete Sparte „<strong>Universitätsverlag</strong>“ für Werke gehobener Qualität. <br />
-                Anhand der Qualität des Inhalts wird festgelegt, in welcher Sparte wir Ihr Dokument veröffentlichen. Wenn Sie und wir übereinstimmend Ihr Werk der Sparte „Universitätsverlag“ zuordnen, wird es dem Herausgebergremium vorgelegt, um eine inhaltliche Begutachtung zu erhalten. Bei der Sparte „Universitätsdrucke“ nehmen wir lediglich eine formale Prüfung der Datei vor.
-            </p>
-
-            <p>
-                Parallel dazu erarbeiten wir mit Ihnen <strong>die Gestaltung des Buches</strong> (im Corporate Design der Universität) und nehmen eine <strong>formale Prüfung</strong> der Datei vor.
-            </p>
-            <p>
-                Sind alle Kriterien für die Veröffentlichung erfüllt, erhalten Sie einen Probedruck des Buches. Wenn beide Parteien diesen geprüft haben, wird die <strong>endgültige Druckfreigabe</strong> erteilt.
-            </p>
-
-            <p>
-                Nach der Freigabe wird Ihr Werk über die Verlagshomepage unter einer <a href="//creativecommons.org/licenses/by/4.0/deed.de" class="extern-link" target="_blank">Creative Commons Lizenz 4.0 (Namensnennung)</a> online <a href="/info/openaccess"><strong>open access</strong></a> zur Verfügung gestellt und an wichtige Datenbanken und an diverse Kataloge (u. a. GVK, DNB) gemeldet. Die Druckversion wird zusätzlich beim Verzeichnis lieferbarer Bücher (VLB) und bei amazon gemeldet.
-            </p>
-	<p>
-		Die Archivierung der Volltextversionen erfolgt im Rahmen der bibliothekarischen Verantwortung für die Langzeitverfügbarkeit digitaler Objekte durch Meldung an die DNB (Deutsche Nationalbibliothek).
-		</p>
+            <p>Nach der Freigabe wird Ihr Werk über die Verlagshomepage unter einer <a href="//creativecommons.org/licenses/by-sa/4.0/deed.de" class="extern-link" target="_blank">Creative-Commons-Lizenz (Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International)</a> (CC BY-SA 4.0) online <a href="/info/openaccess"><strong>open access</strong></a> zur Verfügung gestellt und an wichtige Datenbanken und an diverse Kataloge (u. a. GVK, DNB) gemeldet. Die Druckversion wird zusätzlich beim Verzeichnis lieferbarer Bücher (VLB) und bei amazon gemeldet.</p>
+	<p>Die Archivierung der Volltextversionen erfolgt im Rahmen der bibliothekarischen Verantwortung für die Langzeitverfügbarkeit digitaler Objekte durch Meldung an die DNB (Deutsche Nationalbibliothek).</p>
 		
-	<p>
-		Wir empfehlen unseren Autorinnen und Autoren, schon mit ihren ersten Publikationen ein <a href="//orcid.org/" class="extern-link" target="_blank">ORCID iD</a> (Open Researcher and 
+	<p>Wir empfehlen unseren Autorinnen und Autoren, schon mit ihren ersten Publikationen ein <a href="//orcid.org/" class="extern-link" target="_blank">ORCID iD</a> (Open Researcher and 
 
 Contributor ID) für sich zu registrieren, um im wissenschaftlichen Kontext eindeutig identifizierbar und authentifizierbar zu sein. Ein ORCID iD bietet jeder 
 
@@ -3282,12 +3218,7 @@ Namensveränderungen oder Affiliationswechsel immer derselbe, was gerade am Begi
 
 iD können Verlage und Bibliotheken außerdem weitere Informationen zu Autorinnen und Autoren und ihren Publikationen anbieten, etwa Verlinkungen auf Nachweise in Wikipedia oder in 
 
-nationalen Bibliographien.	
-
-	</p>	
-		
-        </div>
-    </message>
+nationalen Bibliographien.</p></div></message>
     <message key="xmlui.static.publisher-catalog.link">Verlagskatalog</message>
     <message key="xmlui.static.reviewer.head">Publizieren: Begutachtungsverfahren</message>
     <message key="xmlui.static.reviewer.navigation">Begutachtungsverfahren</message>
@@ -3455,160 +3386,77 @@ Sowohl die Mitglieder des Herausgebergremiums als auch die Mitarbeiterinnen und 
 
     <message key="xmlui.static.price.head">Publizieren: Verlagspreise</message>
     <message key="xmlui.static.price.navigation">Verlagspreise</message>
-    <message key="xmlui.static.price">
-        <div>
-            <p>
-		Die Kosten für ein Publikationsprojekt errechnen sich aus den <strong>Verlagskosten</strong> und den <strong>Druckkosten</strong>.    
-            </p>
-            <p>
-		Die <strong>Verlagskosten</strong> beinhalten die von der Seitenzahl und der Qualität der Vorlage abhängigen Kosten für die formale Qualitätsprüfung des Manuskriptes incl. der Abbildungen, die Covergestaltung, Erstellung der Titelei und Prüfung des Manuskriptes auf technische Korrektheit. Außerdem stellen wir die Onlinebereitstellung, Titelmeldung sowie das Marketing in Rechnung. Autorinnen/Autoren von Dissertationen erhalten einen Nachlass von 25% auf diese Kosten. Wegen des geringeren Aufwandes bei der Covergestaltung werden für Publikationen, die innerhalb einer laufenden Schriftenreihe erscheinen, um 40,- EUR geringere Kosten für die Covergestaltung angesetzt.
-		</p>
-             <p>
-		<strong>Druckkosten</strong> werden nur für die von den Autorinnen/Autoren benötigten Druckexemplare in Rechnung gestellt. Zusätzlich zahlt die Autorin/der Autor 15 Verlagsexemplare, die u.a. für Pflichtabgaben an die Deutsche Nationalbibliothek (DNB) und die Niedersächsische Landesbibliothek (NLB) und als Rezensionsexemplare verwendet werden.
-		</p>
-		<p>
-		   Die für die Beispiele zugrunde gelegten Zahlen sind den aktuell vorliegenden Kalkulationstabellen der Druckereien entnommen und unterliegen markttypischen Schwankungen (Papierpreise).
-		</p>
-		<p>
-			Die folgenden Beispiele verdeutlichen die Preisbildung der Gesamtkosten, die für den Autor anfallen, sollten aber aufgrund der Diversität der einzelnen Projekte nur als Beispiel verstanden werden. Bitte benutzen Sie das Formular „Kostenanfrage“, um einen konkreten Kostenvoranschlag für Ihr Projekt zu erhalten.
-		</p>    
+    <message key="xmlui.static.price"><div><p>Die Kosten für ein Publikationsprojekt errechnen sich aus den <strong>Verlagskosten</strong> und den <strong>Druckkosten</strong>.</p>
+            <p>Die <strong>Verlagskosten</strong> beinhalten die von der Seitenzahl und der Qualität der Vorlage abhängigen Kosten für die formale Qualitätsprüfung des Manuskriptes incl. der Abbildungen, die Covergestaltung, Erstellung der Titelei und Prüfung des Manuskriptes auf technische Korrektheit. Außerdem stellen wir die Onlinebereitstellung, Titelmeldung sowie das Marketing in Rechnung. Autorinnen/Autoren von Dissertationen erhalten einen Nachlass von 25% auf diese Kosten. Wegen des geringeren Aufwandes bei der Covergestaltung werden für Publikationen, die innerhalb einer laufenden Schriftenreihe erscheinen, um 40,- EUR geringere Kosten für die Covergestaltung angesetzt.</p>
+             <p><strong>Druckkosten</strong> werden nur für die von den Autorinnen/Autoren benötigten Druckexemplare in Rechnung gestellt. Zusätzlich zahlt die Autorin/der Autor 15 Verlagsexemplare, die u.a. für Pflichtabgaben an die Deutsche Nationalbibliothek (DNB) und die Niedersächsische Landesbibliothek (NLB) und als Rezensionsexemplare verwendet werden.</p>
+		<p>Die für die Beispiele zugrunde gelegten Zahlen sind den aktuell vorliegenden Kalkulationstabellen der Druckereien entnommen und unterliegen markttypischen Schwankungen (Papierpreise).</p>
+		<p>Die folgenden Beispiele verdeutlichen die Preisbildung der Gesamtkosten, die für den Autor anfallen, sollten aber aufgrund der Diversität der einzelnen Projekte nur als Beispiel verstanden werden. Bitte benutzen Sie das Formular „Kostenanfrage“, um einen konkreten Kostenvoranschlag für Ihr Projekt zu erhalten.</p>    
 		
-		<!--<p>
-                Für jedes Publikationsprojekt wird daher den Autoren und Herausgebern eine Verlagskostenpauschale berechnet, die in der Regel <i class="icon-info-circled" data-toggle="popover" data-content="Basispreis, kalkuliert mit 250 Manuskriptseiten der Verlagsversion und geringem Aufwand bei der Durchsicht durch den Verlag. Ist die Seitenzahl deutlich niedriger, (z.B. 100 S.) sinkt der Preis um bis zu 25%. Dementsprechend steigt er bei deutlich höherer Seitenzahl (z.B. 600 S.) um bis zu 75%. Bei sehr aufwändig zu prüfenden Manuskripten mit mehreren Korrekturdurchläufen steigt die Verlagskostenpauschale um bis zu 40%."></i> 750,00 € beträgt.
-
-                Autoren von Dissertationen und Studierende erhalten einen Nachlass von 25% auf die Pauschale. Bei Publikationen, die innerhalb einer laufenden Schriftenreihe erscheinen, reduziert sich die Verlagskostenpauschale um 40,00 €, weil der Bearbeitungsaufwand für das Cover geringer ist. Diese Pauschale beinhaltet die Unterstützung der Nutzer beim Erstellen der publikationsreifen Manuskripte, die formale Qualitätsprüfung, die Erstellung der Druckvorlagen (Covergestaltung, technische Überprüfung der Manuskripte), die Onlinebereitstellung, die Titelmeldung sowie das Marketing.
-            </p>
-            <p>
-                Für die Drucklegung werden die Kosten der Erstauflage den Nutzern in Rechnung gestellt. Der durchschnittliche Seitenpreis<i class="icon-info-circled" data-toggle="popover" data-content="Basierend auf 250 Seiten Digitaldruck, bei Auflage 50 (35 Frei- plus 15 Verlagsexemplare)"></i>
-                bei einer s/w-Produktion beträgt derzeit 1,26 €, im Falle von Farbseiten<i class="icon-info-circled" data-toggle="popover" data-content="Basierend auf 250 Seiten gesamt mit 10 Farbseiten Digitaldruck, bei Auflage 50 (35 Frei- plus 15 Verlagsexemplare)"></i> steigt der Preis bei einfacher Papierqualität auf 1,67 € und bei gehobener Papierqualität auf 1,78 €. Die folgenden Beispiele verdeutlichen die Preisbildung des Autorenanteils, die letztendliche Höhe ergibt sich aber aus den konkreten Publikationsprojekten.
-            </p>-->
-            <table id="prices" class="table table-sm">
-
-                <thead>
-                    <tr>
-                        <th> </th>
+		
+            <table id="prices" class="table table-sm"><thead><tr><th />
                         <th>Verlagskosten</th>
                         <th>Druckkosten inkl. MwSt. und Versand</th>
-                        <th>Gesamtkosten für die Nutzer</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sammelband, 180 Seiten, keine Farbseiten, ­gedruckt als Softcover auf Offset-Papier, verlagsseitig geringer Bearbeitungsaufwand, ­35 Autoren-Exemplare</td>
+                        <th>Gesamtkosten für die Nutzer</th></tr></thead>
+                <tbody><tr><td>Sammelband, 180 Seiten, keine Farbseiten, ­gedruckt als Softcover auf Offset-Papier, verlagsseitig geringer Bearbeitungsaufwand, ­35 Autoren-Exemplare</td>
                         <td class="numeric">665,00 €</td>
                         <td class=" numeric">240,00 €</td>
 
-                        <td class="numeric">905,00 €</td>
-                    </tr>
-                    <tr>
-                        <td>Sammelband, 450 Seiten, 20 Farbseiten, ­gedruckt als Softcover auf Offset-Papier, verlagsseitig hoher Bearbeitungsaufwand, ­erscheint in einer Schriftenreihe, 100 Autoren/Hrsg.-Exemplare</td>
+                        <td class="numeric">905,00 €</td></tr>
+                    <tr><td>Sammelband, 450 Seiten, 20 Farbseiten, ­gedruckt als Softcover auf Offset-Papier, verlagsseitig hoher Bearbeitungsaufwand, ­erscheint in einer Schriftenreihe, 100 Autoren/Hrsg.-Exemplare</td>
                         <td class="numeric">1.323,00 €</td>
                         <td class="numeric">1.320,00 €</td>
-                        <td class="numeric">2.643,00 €</td>
-                    </tr>
-                    <tr>
-                        <td>Dissertation, 250 Seiten, 10 Farbseiten, ­gedruckt als Softcover auf hochwertigem Bilderdruckpapier, ­verlagsseitig geringer Bearbeitungsaufwand, ­20 Autoren-Exemplare</td>
+                        <td class="numeric">2.643,00 €</td></tr>
+                    <tr><td>Dissertation, 250 Seiten, 10 Farbseiten, ­gedruckt als Softcover auf hochwertigem Bilderdruckpapier, ­verlagsseitig geringer Bearbeitungsaufwand, ­20 Autoren-Exemplare</td>
                         <td class="numeric">516,00 €</td>
                         <td class="numeric">250 x 1,78 = 445,00 €</td>
-                        <td class="numeric">960,00 €</td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </div>
-    </message>
+                        <td class="numeric">960,00 €</td></tr></tbody></table></div></message>
 
     <message key="xmlui.static.reviewform.link"><a href="/dokumente/texts/simple-review_extern_130204.pdf">Begutachtungsbogen</a></message>
 
     <message key="xmlui.static.divisions.head">Verlagssparten</message>
 
-    <message key="xmlui.static.divisions">
-
-        <div>
-
-            <p>Den Autoren und Herausgebern stehen zum Publizieren die zwei Sparten „Universitätsverlag“ und „Universitätsdrucke“ zur Verfügung.</p>
-            <table class="table table-striped">
-
-                <thead>
-                    <tr>
-
-                        <th> </th>
+    <message key="xmlui.static.divisions"><div><p>Den Autoren und Herausgebern stehen zum Publizieren die zwei Sparten „Universitätsverlag“ und „Universitätsdrucke“ zur Verfügung.<br /> Für Publikationen in der inhaltlichen Verantwortung der Universität als Körperschaft betreiben wir außerdem die Sparte „Varia“.</p>
+            <table class="table table-striped"><thead><tr><th />
                         <th>Universitätsverlag</th>
                         <th>Universitätsdrucke</th>
-
-                    </tr>
-
-                </thead>
-                <tbody>
-
-                    <tr>
-
-                        <th>Begutachtung</th>
+			<th>Varia</th></tr></thead>
+                <tbody><tr><th>Begutachtung</th>
                         <td>Begutachtung durch Herausgebergremium und Fachkollegen (Peer Review) sowie Verlag</td>
                         <td>Begutachtung durch Verlag, ggf. Konsultation des Herausgebergremiums</td>
+			<td>keine Begutachtung, ggf. Konsultation des Herausgebergremiums</td></tr>
 
-                    </tr>
-
-                    <tr>
-
-                        <th>Publikations-dienstleistung</th>
+                    <tr><th>Publikations-dienstleistung</th>
                         <td>volle Verlagsdienstleistung <br />
                             (ggf. Lektorat, Korrektorat sowie Produktionsbetreuung, Veröffentlichung, Vertrieb)</td>
                         <td>Verlagssdienstleistung<br />
                             (Produktionsbetreuung, Veröffentlichung, Vertrieb)</td>
+			<td>eingeschränkte Verlagssdienstleistung<br />
+                            (Veröffentlichung, Vertrieb)</td></tr>
 
-                    </tr>
+                    <tr><th>Vorlagen</th>
+                        <td>konvertierbare Manuskripte und aufbereitete Formate (PS, PDF, TEX etc.)</td>
+                        <td>konvertierbare Manuskripte und aufbereitete Formate (PS, PDF, TEX etc.)</td>
+			<td>konvertierbare Manuskripte und aufbereitete Formate (PS, PDF, TEX etc.)</td></tr>
 
-                    <tr>
+                    <tr><th>Medienformen</th>
+                        <td>Bücher, Schriftenreihen, Zeitschriften</td>
+                        <td>Bücher, Schriftenreihen, Zeitschriften</td>
+			<td>Bücher, Schriftenreihen</td></tr>
 
-                        <th>Vorlagen</th>
-                        <td>Konvertierbare Manuskripte und aufbereitete Formate (PS, PDF, TEX etc.)</td>
-                        <td>Konvertierbare Manuskripte und aufbereitete Formate (PS, PDF, TEX etc.)</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th>Medienformen</th>
-                        <td>Zeitschriften, Bücher, Multimediaprodukte</td>
-                        <td>Zeitschriften, Bücher</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th>Ausstattung der Printprodukte</th>
+                    <tr><th>Ausstattung der Printprodukte</th>
                         <td>hochwertige Medienprodukte (Hardcover und Softcover)</td>
                         <td>hochwertige bis preisgünstige Medienprodukte</td>
+			<td>hochwertige bis preisgünstige Medienprodukte</td></tr>
 
-                    </tr>
+                    <tr><th>Ausgabe</th>
+                        <td>klassischer und digitaler Druck sowie elektronische Formate</td>
+                        <td>klassischer und digitaler Druck sowie elektronische Formate</td>
+                        <td>klassischer und digitaler Druck sowie elektronische Formate</td></tr>
 
-                    <tr>
-
-                        <th>Ausgabe</th>
-                        <td>klassischer und digitaler Druck sowie elektronische Formate<br />
-                            Print-on-Demand-Möglichkeit</td>
-                        <td>klassischer und digitaler Druck sowie elektronische Formate<br />
-                            Print-on-Demand-Möglichkeit</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <th>Archivierung</th>
+                    <tr><th>Archivierung</th>
                         <td>Langzeitarchivierung</td>
                         <td>Langzeitarchivierung</td>
-
-                    </tr>
-
-                </tbody>
-
-            </table>
-            <p>
-                Für Publikationen in der inhaltlichen Verantwortung der Universität als Körperschaft betreiben wir außerdem die Sparte „Varia“.
-            </p>
-        </div>
-    </message>
+			<td>Langzeitarchivierung</td></tr></tbody></table></div></message>
     <message key="xmlui.static.annotations.link">Annotationsservice <img title="hypothes.is" src="/dokumente/images/hypthesis_Symbol_bl.jpg" /></message>
     <message key="xmlui.item.annotation.download">Annotationen: </message>
     <message key="xmlui.static.annotations.head">Annotationsservice</message>
@@ -4405,12 +4253,13 @@ Die vorliegende Schriftenreihe vereint Texte, Vorträge und Reden, die seit 2014
     <message key="xmlui.static.shipping.costs.title">Versandkosten</message>
     <message key="xmlui.static.shipping.costs.trail">Versandkosten</message>
     <message key="xmlui.static.shipping.costs.head">Versandkosten</message>
-    <message key="xmlui.static.shipping.costs"><div>Zu den Einzelpreisen der Waren berechnen wir für eine Lieferung innerhalb Deutschlands eine Versandkostenpauschale von 2,50 €.</div>
-<h3>Ab 22.02.2021 gelten folgende Versandkostenpauschalen ins Ausland</h3>
-<table class="table table-striped shipping"><tbody><tr><td>Österreich, Luxemburg, Liechtenstein</td><td class="numeric">&#160;3,50 €</td></tr>
+    <message key="xmlui.static.shipping.costs"><div>Zu den Einzelpreisen der Waren berechnen wir für jede Lieferung folgende Versandkostenpauschale:</div>
 
-                        <tr><td>Schweiz</td><td class="numeric">&#160;6,00 €</td></tr>
-                        <tr><td>alle weiteren EU-Länder</td><td class="numeric">&#160;8,00 €</td></tr>
+<table class="table table-striped shipping"><tbody>
+						<tr><td>Deutschland</td><td class="numeric"> 2,50 €</td></tr>
+						<tr><td>Österreich, Luxemburg, Liechtenstein</td><td class="numeric"> 3,50 €</td></tr>
+                        <tr><td>Schweiz</td><td class="numeric"> 6,00 €</td></tr>
+                        <tr><td>alle weiteren EU-Länder</td><td class="numeric"> 8,00 €</td></tr>
                         <tr><td>nicht EU-Länder Europa,  außerhalb Europa</td><td class="numeric">15,00 €</td></tr></tbody></table>
 <div>Der Auslandsversand erfolgt mit Sendungsverfolgung.</div></message>
 
@@ -4625,6 +4474,8 @@ Bis zur vollständigen Zahlung des Kaufpreises verbleibt die gelieferte Ware im 
     <message key="xmlui.Discovery.AdvancedSearch.type_subjectheading">Fachgebiet</message>
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_medium">Medium</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.medium">Medium</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.sponsor">Sponsor</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.sponsor">Sponsor</message>
 
     <!-- Cost request form -->
 
