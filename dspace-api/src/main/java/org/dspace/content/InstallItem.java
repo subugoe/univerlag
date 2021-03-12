@@ -235,7 +235,7 @@ public class InstallItem
 	        {
         	    String isbn = handleKey.substring(handleKey.indexOf("isbn-") + 5);
 	            item.addMetadata("dc", "relation", "isbn-13", null, isbn);
-		    item.addMetadata("dc", "identifier", "asin", null, generateASIN(isbn)); 
+		    item.addMetadata("dc", "intern", "asin", null, generateASIN(isbn)); 
         	}
 	        else if (handleKey.indexOf("issn") > -1)
         	{
@@ -385,12 +385,17 @@ public class InstallItem
     private static String generateASIN(String isbn)
     {
 	String base = isbn.substring(0,16).substring(4).replaceAll("-","");
-	int checksum=0;
+	Integer checksum=0;
         for(int i=0;i<9;i++)
-            checksum += base.charAt(i) * (i+1);
+            checksum += Integer.valueOf(base.charAt(i)-48) * (i+1);
 
 	checksum = checksum % 11;
 	
-        return base  + checksum;
+	if (checksum == 10)
+	{
+		return base + "x";
+	}  else {
+	        return base  + checksum;
+	}
     }
 }
