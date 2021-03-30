@@ -326,18 +326,25 @@ public class OrderAction extends AbstractAction
 
 
         if (action.equals("costrequest")) {
-	    countrycode = (String) jsonObject.get("countrycode");
-            System.out.println("cost request!");
-            if (jsonObject.get("countrycode") == null) {
-                jsonResult.put("shipping", "false");
+	    System.out.println("cost request!");
+	    if ((JSONObject) jsonObject.get("delivery") != null) {
 
-            } else {
-                System.out.println("calculating shipping costs...");
+                JSONObject delivery = (JSONObject) jsonObject.get("delivery");
+                countrycode = (String) delivery.get("countrycode");
 		bill.setShippingCosts(countrycode);
-                jsonResult.put("products", bill.getProductCost());
-                jsonResult.put("shipping", bill.getShippingCost());
-                jsonResult.put("total", bill.getTotalSum());
-            }
+	    } else {
+	    
+	            if (jsonObject.get("countrycode") == null) {
+        	        jsonResult.put("shipping", "false");
+
+	            } else {
+        	        System.out.println("calculating shipping costs...");
+			bill.setShippingCosts(countrycode);
+	                jsonResult.put("products", bill.getProductCost());
+        	        jsonResult.put("shipping", bill.getShippingCost());
+                	jsonResult.put("total", bill.getTotalSum());
+	            }
+	    }
             System.out.println("Costrequest finished!! Result: " + jsonResult.toJSONString());
             map.put("result", jsonResult.toJSONString());
 
@@ -345,6 +352,12 @@ public class OrderAction extends AbstractAction
         }
 
         if (action.equals("order")) {
+		
+	    if ((JSONObject) jsonObject.get("delivery") != null) {
+
+                JSONObject delivery = (JSONObject) jsonObject.get("delivery");
+		bill.setShippingCosts((String) delivery.get("countrycode"));
+            } 
             if (bill.getProductCost().equals("0.00")) {
                 // null or negative number of items ordered
                 writeError(map, "no items ordered");
@@ -404,8 +417,16 @@ public class OrderAction extends AbstractAction
             } else {
 
                 System.out.println("data complete!");
+		if ((JSONObject) jsonObject.get("delivery") != null) {
+
+                	JSONObject delivery = (JSONObject) jsonObject.get("delivery");
+	                countrycode = (String) delivery.get("countrycode");
+        	        bill.setShippingCosts(countrycode);
+		} else {	
                 //customer data complete
-		bill.setShippingCosts((String) customer.get("countrycode"));
+			bill.setShippingCosts((String) customer.get("countrycode"));
+		}
+		//customer data complete
                 if (customer.get("name") != null) {
 					temp_data.append((String) customer.get("name"));
 					temp_data.append("\n");
@@ -454,6 +475,7 @@ public class OrderAction extends AbstractAction
                 {
                     System.out.println("data complete!");
 		    System.out.println("Country: " + delivery.get("country"));
+		    bill.setShippingCosts((String) delivery.get("countrycode"));
                     if (delivery.get("name") != null )
                     {
 						temp_data.append((String) delivery.get("name"));
@@ -504,7 +526,7 @@ public class OrderAction extends AbstractAction
             System.out.println("setting confirmation email parameter...");
             
             /**Email confirm_email = Email.getEmail("order_confirm" + formvariant + "_" + customer_locale); **/
-	        Email confirm_email = Email.getEmail(I18nUtil.getEmailFilename(new Locale(customer_locale), "order_confirm" + formvariant ));
+	    Email confirm_email = Email.getEmail(I18nUtil.getEmailFilename(new Locale(customer_locale), "order_confirm" + formvariant ));
             DecimalFormat df = new DecimalFormat("##0.00");
             System.out.println("Locale: " + context.getCurrentLocale());
 
@@ -672,6 +694,7 @@ public class OrderAction extends AbstractAction
                 8.00 EUR bei Lieferung in alle weiteren EU-Länder und
                 15.00 EUR in europäische Länder (Nicht-EU) und in nicht-europäische Länder (Welt).
             */
+	    System.out.println("Setting shipping costs for " + Countrycode);
 	    if (!(Countrycode.equals("DE"))) {
 	   	
 	   	 if (lowcost.contains(Countrycode)) {

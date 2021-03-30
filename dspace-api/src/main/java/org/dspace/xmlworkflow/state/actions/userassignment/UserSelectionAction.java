@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.sql.SQLException;
 
+
 /**
  * An abstract class representing the processing side of
  * a user selection action.
@@ -38,14 +39,20 @@ public abstract class UserSelectionAction extends Action {
     @Override
     public boolean isAuthorized(Context context, HttpServletRequest request, XmlWorkflowItem wfi) throws SQLException, AuthorizeException, IOException, WorkflowConfigurationException {
         PoolTask task = null;
+	log.debug("Checking authorization for claim ...");
         if(context.getCurrentUser() != null)
+	    log.debug("WFI: " + wfi.getID() + " User: " + context.getCurrentUser().getID());
             task = PoolTask.findByWorkflowIdAndEPerson(context, wfi.getID(), context.getCurrentUser().getID());
 
         //Check if we have pooled the current task
-	log.info("Checking if we have pooled the current task...");
-	log.info("WFID: " + task.getWorkflowID() + " ParentWFID: " + getParent().getStep().getWorkflow().getID());
-	log.info("StepID: " + task.getStepID() + " ParentStepID: " + getParent().getStep().getId()); 
-	log.info("ActionID: " + task.getActionID() + " ParentActionID: " + getParent().getId());
+	if (task != null)
+	{
+	log.debug("Checking if we have pooled the current task...");
+	log.debug("Parent-Step-WFI: " + getParent().getStep().getWorkflow().getID());
+	log.debug("Parent-StepID: " + getParent().getStep().getId());
+	log.debug("ParentID: " + getParent().getId());
+	log.debug("WFI: " + task.getWorkflowID() + " StepID: " + task.getStepID() + " ActionID: " + task.getActionID());
+	}
         return task != null &&
                 task.getWorkflowID().equals(getParent().getStep().getWorkflow().getID()) &&
                 task.getStepID().equals(getParent().getStep().getId()) &&
@@ -80,3 +87,4 @@ public abstract class UserSelectionAction extends Action {
      */
     public abstract boolean usesTaskPool();
 }
+

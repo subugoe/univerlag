@@ -189,7 +189,7 @@
 
 
     <xsl:template match="dri:referenceSet[@id='aspect.artifactbrowser.ItemViewer.referenceSet.collection-viewer']/dri:reference" mode="summaryView">
-        <!-- simplified check to verify whether access rights are available in METS -->
+        <!-- RIGHTSplified check to verify whether access rights are available in METS -->
         <xsl:variable name='METSRIGHTS-enabled' select="contains(confman:getProperty('plugin.named.org.dspace.content.crosswalk.DisseminationCrosswalk'), 'METSRIGHTS')" />
         <xsl:variable name="externalMetadataURL">
             <xsl:text>cocoon:/</xsl:text>
@@ -197,9 +197,9 @@
             <!-- If this is an Item, display the METSRIGHTS section, so we
                  know which files have access restrictions.
                  This requires the METSRightsCrosswalk to be enabled! -->
-            <xsl:if test="@type='DSpace Item' and $METSRIGHTS-enabled">
+           <!-- <xsl:if test="@type='DSpace Item' and $METSRIGHTS-enabled">
                 <xsl:text>?rightsMDTypes=METSRIGHTS</xsl:text>
-            </xsl:if>
+            </xsl:if> -->
         </xsl:variable>
         <!-- This comment just displays the full URL in an HTML comment, for easy reference. -->
         <xsl:comment> External Metadata URL: <xsl:value-of select="$externalMetadataURL"/> </xsl:comment>

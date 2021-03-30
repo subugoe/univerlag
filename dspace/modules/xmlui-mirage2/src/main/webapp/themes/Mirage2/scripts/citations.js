@@ -71,6 +71,10 @@ function citestyle(cs, link){
     
    });
 
+    
+    $("#aspect_discovery_CommunityRecentSubmissions_div_community-recent-submission").css("display", "none");
+    $("#aspect_discovery_CommunityRecentSubmissions_div_community-recent-submission").prev('h3').css("display", "none");
+
     if ($("#langopt").text().substring(0,2) == 'De')
     {
         $("a, ul.breadcrumb li, h2, span.Z3988").each(function ()

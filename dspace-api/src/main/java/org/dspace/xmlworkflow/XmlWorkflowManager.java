@@ -53,6 +53,7 @@ public class XmlWorkflowManager {
 
 
     public static XmlWorkflowItem start(Context context, WorkspaceItem wsi) throws SQLException, AuthorizeException, IOException, WorkflowConfigurationException, MessagingException, WorkflowException {
+	log.debug("Starting xmlworkflowitem...");
         Item myitem = wsi.getItem();
         Collection collection = wsi.getCollection();
         Workflow wf = WorkflowFactory.getWorkflow(collection);
@@ -169,9 +170,11 @@ public class XmlWorkflowManager {
      * Executes an action and returns the next.
      */
     public static WorkflowActionConfig doState(Context c, EPerson user, HttpServletRequest request, int workflowItemId, Workflow workflow, WorkflowActionConfig currentActionConfig) throws SQLException, AuthorizeException, IOException, MessagingException, WorkflowConfigurationException, WorkflowException {
+	log.debug("Doing state...");
         try {
             XmlWorkflowItem wi = XmlWorkflowItem.find(c, workflowItemId);
             Step currentStep = currentActionConfig.getStep();
+	    log.debug("Current Stepid: "  + currentStep.getId());
             if(currentActionConfig.getProcessingAction().isAuthorized(c, request, wi)){
                 ActionResult outcome = currentActionConfig.getProcessingAction().execute(c, wi, currentStep, request);
                 return processOutcome(c, user, workflow, currentStep, currentActionConfig, outcome, wi, false);
@@ -187,6 +190,7 @@ public class XmlWorkflowManager {
 
 
     public static WorkflowActionConfig processOutcome(Context c, EPerson user, Workflow workflow, Step currentStep, WorkflowActionConfig currentActionConfig, ActionResult currentOutcome, XmlWorkflowItem wfi, boolean enteredNewStep) throws IOException, WorkflowConfigurationException, AuthorizeException, SQLException, WorkflowException {
+	log.debug("Processing Outcome...");
         if(currentOutcome.getType() == ActionResult.TYPE.TYPE_PAGE || currentOutcome.getType() == ActionResult.TYPE.TYPE_ERROR){
             //Our outcome is a page or an error, so return our current action
             c.restoreAuthSystemState();
@@ -250,7 +254,7 @@ public class XmlWorkflowManager {
 
 
                         nextStep = workflow.getNextStep(c, wfi, currentStep, currentOutcome.getResult());
-
+			log.debug("Next stepid: " + nextStep.getId());
                         nextActionConfig = processNextStep(c, user, workflow, currentOutcome, wfi, nextStep);
                         //If we require a user interface return null so that the user is redirected to the "submissions page"
                         if(nextActionConfig == null || nextActionConfig.requiresUI()){
@@ -329,6 +333,7 @@ public class XmlWorkflowManager {
     }
 
     private static WorkflowActionConfig processNextStep(Context c, EPerson user, Workflow workflow, ActionResult currentOutcome, XmlWorkflowItem wfi, Step nextStep) throws SQLException, IOException, AuthorizeException, WorkflowException, WorkflowConfigurationException {
+	log.debug("Processing net step...");
         WorkflowActionConfig nextActionConfig;
         if(nextStep!=null){
             nextActionConfig = nextStep.getUserSelectionMethod();
@@ -539,6 +544,7 @@ public class XmlWorkflowManager {
     }
 
     private static void grantUserAllItemPolicies(Context context, Item item, EPerson epa) throws AuthorizeException, SQLException {
+	log.debug("Grating User all item Policies");
         if(epa != null){
             //A list of policies the user has for this item
             List<Integer>  userHasPolicies = new ArrayList<Integer>();
@@ -565,6 +571,7 @@ public class XmlWorkflowManager {
     }
 
     private static void grantGroupAllItemPolicies(Context context, Item item, Group group) throws AuthorizeException, SQLException {
+	log.debug("Grating group all item Policies");
         if(group != null){
             //A list of policies the user has for this item
             List<Integer>  groupHasPolicies = new ArrayList<Integer>();
@@ -603,6 +610,7 @@ public class XmlWorkflowManager {
         }
     }
     private static void addGroupPolicyToItem(Context context, Item item, int type, Group group) throws AuthorizeException, SQLException {
+	log.debug("Adding group policy to item...");
         if(group != null){
             AuthorizeManager.addPolicy(context ,item, type, group);
             Bundle[] bundles = item.getBundles();
